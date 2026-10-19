@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent
 load_dotenv(find_dotenv(usecwd=True))
 
 # 앱 설정: 이 값을 바꾸는 변경 요청이 품질을 떨어뜨리면 CI가 막습니다.
-TOP_K = 3
+TOP_K = 1
 PROMPT_VERSION = "v1"
 MODEL_NAME = os.getenv("OPENAI_CHAT_MODEL", "gpt-4.1")
 
